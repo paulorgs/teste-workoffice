@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar >
+   <ion-row>
+    <ion-back-button defaultHref="home"></ion-back-button>
+    <ion-title>Cats</ion-title>
+   </ion-row>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ngFor="let cat of arr">
+      <input type="hidden" name="id" value="{{ cat._id}}">
+      <ion-item  button (click)="presentModal(cat._id)"> 
+        <ion-avatar slot="start">
+          <img
+            src="{{ cat.fotoUrl}}"
+            alt="" srcset="">
+        </ion-avatar>
+        <ion-label>
+         <h5> {{ cat.nome + " " + cat.sobrenome }}</h5>
+          <p>{{ cat.telefone }}</p>
+
+        </ion-label>
+        <ion-note color="primary" slot="end"></ion-note>
+      </ion-item>
+
+    </ion-item-sliding>
+  </ion-list>
+
+</ion-content>

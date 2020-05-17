@@ -1,0 +1,92 @@
+[
+    {
+        "id_cao":0,
+        "nome":"Marcelo",
+        "sobrenome":"Santos",
+        "telefone":"(75) 95458-9341",
+        "seguidores":156,
+        "projetos":42,
+        "seguidos":456
+    },
+    {
+        "id_cao":1,
+        "nome":"Joaquim",
+        "sobrenome":"Silva",
+        "telefone":"(44) 92160-5200",
+        "seguidores":8976,
+        "projetos":75,
+        "seguidos":7637
+    },
+    {
+        "id_cao":2,
+        "nome":"Lucas",
+        "sobrenome":"Freitas",
+        "telefone":"(10) 95838-1755",
+        "seguidores":768,
+        "projetos":786,
+        "seguidos":786
+    },
+    {
+        "id_cao":3,
+        "nome":"Letícia",
+        "sobrenome":"Martins",
+        "telefone":"(89) 93138-5793",
+        "seguidores":6,
+        "projetos":456,
+        "seguidos":2
+    },
+    {
+        "id_cao":4,
+        "nome":"Gabriel",
+        "sobrenome":" Oliveira",
+        "telefone":"(69) 91915-6865",
+        "seguidores":763,
+        "projetos":798,
+        "seguidos":423
+    },
+    {
+        "id_cao":5,
+        "nome":"Luciano",
+        "sobrenome":"Freire",
+        "telefone":"(33) 97395-3848",
+        "seguidores":12786,
+        "projetos":663,
+        "seguidos":4563
+    },
+    {
+        "id_cao":6,
+        "nome":"Maria",
+        "sobrenome":"Xavier",
+        "telefone":"(37) 91391-5208",
+        "seguidores":7896,
+        "projetos":4530,
+        "seguidos":678
+    },
+    {
+        "id_cao":7,
+        "nome":"Paola",
+        "sobrenome":"Albuquerque",
+        "telefone":"(43) 92374-9572",
+        "seguidores":10,
+        "projetos":10,
+        "seguidos":10
+    },
+    {
+        "id_cao":8,
+        "nome":"Marcos",
+        "sobrenome":"Mendes",
+        "telefone":"(48) 90068-8028",
+        "seguidores":43,
+        "projetos":2467,
+        "seguidos":2356
+    },
+    {
+        "id_cao":9,
+        "nome":"Suzana",
+        "sobrenome":"Maria",
+        "telefone":"(13) 99612-4744",
+        "seguidores":5,
+        "projetos":554,
+        "seguidos":2354
+    }
+]

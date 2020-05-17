@@ -1,0 +1,92 @@
+[
+    {
+        "id_gato":0,
+        "nome":"Aline",
+        "sobrenome":"Saraiva",
+        "telefone":"(22) 94553-5272",
+        "seguidores":156,
+        "projetos":42,
+        "seguidos":456
+    },
+    {
+        "id_gato":1,
+        "nome":"Deneval",
+        "sobrenome":"Albuquerque",
+        "telefone":"(31) 97859-9285",
+        "seguidores":8976,
+        "projetos":75,
+        "seguidos":7637
+    },
+    {
+        "id_gato":2,
+        "nome":"Eduardo",
+        "sobrenome":"Nogueira",
+        "telefone":"(81) 98991-8192",
+        "seguidores":768,
+        "projetos":786,
+        "seguidos":786
+    },
+    {
+        "id_gato":3,
+        "nome":"Fabrícia",
+        "sobrenome":"Braga",
+        "telefone":"(28) 99817-5895",
+        "seguidores":6,
+        "projetos":456,
+        "seguidos":2
+    },
+    {
+        "id_gato":4,
+        "nome":"Gustavo",
+        "sobrenome":" Oliveira Filho",
+        "telefone":"(83) 97043-0569",
+        "seguidores":763,
+        "projetos":798,
+        "seguidos":423
+    },
+    {
+        "id_gato":5,
+        "nome":"Marcelo",
+        "sobrenome":" Nogueira",
+        "telefone":"(88) 99294-4158",
+        "seguidores":12786,
+        "projetos":663,
+        "seguidos":4563
+    },
+    {
+        "id_gato":6,
+        "nome":"Margarida",
+        "sobrenome":"Xavier",
+        "telefone":"(69) 90626-2540",
+        "seguidores":7896,
+        "projetos":4530,
+        "seguidos":678
+    },
+    {
+        "id_gato":7,
+        "nome":"Paula",
+        "sobrenome":"Macedo",
+        "telefone":"(29) 91902-6034",
+        "seguidores":10,
+        "projetos":10,
+        "seguidos":10
+    },
+    {
+        "id_gato":8,
+        "nome":"Silas",
+        "sobrenome":"Saraiva",
+        "telefone":"(79) 99699-1885",
+        "seguidores":43,
+        "projetos":2467,
+        "seguidos":2356
+    },
+    {
+        "id_gato":9,
+        "nome":"Suélen",
+        "sobrenome":"Batista Jr.",
+        "telefone":"(66) 95942-5445",
+        "seguidores":5,
+        "projetos":554,
+        "seguidos":2354
+    }
+]

@@ -1,0 +1,57 @@
+<ion-split-pane contentId="menu-content" when="lg" [disabled]="false" >
+  <ion-menu color="primary" contentId="menu-content" menuId="menu-content" side="start" type="overlay" swipeGesture>
+    <ion-header>
+     
+     <div class="head">
+     
+       <ion-row class="ion-justify-content-space-around">
+        <ion-col class="avatar">
+
+          <ion-avatar class="ion-float-left">
+            <img src="{{ user.fotoUrl }}"/>
+          </ion-avatar>
+         </ion-col>
+    
+         <ion-col >
+          <div class="ion-text-justify texto">
+            <h6>{{ user.nome + ' ' + user.sobrenome }}</h6>
+           <p>{{  user.cidade + ', '+ user.estado}}</p>
+          </div>
+        </ion-col>
+       </ion-row>
+      
+     </div>
+     
+     
+   
+    </ion-header>
+    <ion-content>
+      <ion-list>
+       <a href="/home"> <ion-item  lines="none">
+        <ion-icon name="apps-outline"></ion-icon>
+        Home</ion-item></a>
+        <a href="/cat-list">
+          <ion-item lines="none">
+            <ion-icon name="compass-outline"></ion-icon> 
+            Cats</ion-item>
+        </a>
+        <a href="/dog-list">
+          <ion-item lines="none">
+            <ion-icon name="mail-outline"></ion-icon>
+            Dogs</ion-item></a>
+            <ion-item  button (click)="logout()" lines="none">
+              <ion-icon name="log-out-outline"></ion-icon>
+              Logout</ion-item>
+           
+      </ion-list>
+      
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="menu-content"></ion-router-outlet>
+</ion-split-pane>
+
+
+  
+  
+
+

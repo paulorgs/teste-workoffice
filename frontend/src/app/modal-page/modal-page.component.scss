@@ -1,0 +1,41 @@
+ion-tab-button{
+    float: left;
+    margin-top: 10%;
+    color:#2699fb
+}
+
+
+h2{
+    color:#2699fb;
+    font-weight: bolder;
+    font-size: 2em;
+}
+h6{
+    color:#2699fb;
+    font-weight: bold;
+}
+p{
+    color:#2699fb;
+    font-size: 0.7em;
+}
+
+ion-avatar{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.block{
+    background-color: #bce0fd;
+    height: 5em;
+    display: flex;
+   
+    justify-content: center;
+    h6{
+        margin-top: 20px;
+    }
+    p{
+        font-size: 0.8em;
+        margin-top: -10%;
+        color: #2699fb;
+    }
+}

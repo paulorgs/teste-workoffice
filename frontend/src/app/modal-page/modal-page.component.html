@@ -1,0 +1,64 @@
+
+
+
+<ion-content>
+  <ion-toolbar >
+   
+      
+        <ion-tab-button (click)="close()" >
+          <ion-icon name="arrow-back-outline"></ion-icon>
+         
+        </ion-tab-button>
+     
+     
+   
+     <h2>{{ nome + " " + sobrenome}}</h2>
+ 
+        
+  </ion-toolbar>
+
+
+  <ion-row>
+
+    <ion-col>
+      <ion-avatar>
+        <img src="{{ fotoUrl}}" alt="" srcset="">
+      </ion-avatar>
+     
+    </ion-col>
+
+    <ion-col>
+      <h6>{{ nome + " " + sobrenome}}</h6>
+      <p>{{ cidade +"," + estado }}</p>
+    </ion-col>
+
+    <ion-col size="3"></ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div class="block">
+         <center><h6>{{ projetos }}</h6>
+          <p>Projects</p></center>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div class="block">
+        <center>
+          <h6>{{ seguidores }}</h6>
+          <p>Followerss</p>
+        </center>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div class="block">
+        <center>
+          <h6>{{ seguidos }}</h6>
+          <p>Following</p>
+        </center>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  
+</ion-content>

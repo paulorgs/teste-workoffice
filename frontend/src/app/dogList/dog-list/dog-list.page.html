@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+   <ion-row>
+    <ion-back-button defaultHref="home"></ion-back-button>
+    <ion-title>Dogs</ion-title>
+   </ion-row>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ngFor="let dog of arr">
+      <input type="hidden" name="id" value="{{ dog._id}}">
+      <ion-item  button (click)="presentModal(dog._id)"> 
+        <ion-avatar slot="start">
+          <img
+            src="{{ dog.fotoUrl}}"
+            alt="" srcset="">
+        </ion-avatar>
+        <ion-label>
+        <h5>  {{ dog.nome + " " + dog.sobrenome }}</h5>
+          <p>{{ dog.telefone }}</p>
+
+        </ion-label>
+        <ion-note color="primary" slot="end"></ion-note>
+      </ion-item>
+
+    </ion-item-sliding>
+  </ion-list>
+
+</ion-content>
