@@ -16,9 +16,11 @@ export class DogService {
 
  getDogs() {
     //console.log(this.tokenService.getToken());
+
     
     const headers = new HttpHeaders().set("Authorization", "Bearer " + this.tokenService.getToken());
     return  this.httpClient.get(API_URL, { headers });
+   
       
   
   }
