@@ -1,4 +1,4 @@
-# teste-workoffice
+# Aplicativo em Ionic 5 que consome uma API em Node + Express com autenticação JWT 
 
 <h1> Intruções para a execução do Projeto  </h1>
 
